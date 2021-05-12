@@ -16,7 +16,7 @@ export const NavBar = (props) => {
             </li>
             {
                 (localStorage.getItem("lu_token") !== null) ?
-                    <li className="nav-item">
+                    <li className="navbar__item">
                         <button className="nav-link fakeLink"
                             onClick={() => {
                                 localStorage.removeItem("lu_token")

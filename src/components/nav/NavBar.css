@@ -7,4 +7,24 @@
 .navbar__item {
     flex-basis: 20%;
     list-style-type: none;
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.fakeLink {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    background: none!important;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.fakeLink:hover {
+    font-weight: bold;
 }
