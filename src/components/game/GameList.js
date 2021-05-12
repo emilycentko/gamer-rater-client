@@ -21,7 +21,7 @@ export const GameList = (props) => {
                         return <section key={`game--${game.id}`} className="game">
                             <h3 className="game__title">
                                 <Link to={`/games/${game.id}`}>
-                                    {game.name}
+                                    {game.title}
                                 </Link>
                             </h3>
                           
