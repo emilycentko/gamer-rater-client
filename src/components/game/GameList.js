@@ -15,6 +15,11 @@ export const GameList = (props) => {
         <>
             
             <h1>Games</h1>
+            <button className="btn btn-2 icon-create"
+                onClick={() => {
+                    history.push({ pathname: "/games/new" })
+                }}
+                >Register New Game</button>
             <article className="games">
                 {
                     games.map(game => {
