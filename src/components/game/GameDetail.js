@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from "react"
 import { GameContext } from "./GameProvider.js"
 import { useHistory, useParams } from 'react-router-dom'
-import { CategoryContext } from "../category/CategoryProvider.js"
 
 export const GameDetail = () => {
     const { getGameById } = useContext(GameContext)
